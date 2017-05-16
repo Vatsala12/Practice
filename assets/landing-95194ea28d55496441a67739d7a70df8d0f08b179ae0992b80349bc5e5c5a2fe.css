@@ -1,0 +1,29 @@
+body,html{margin:0px;padding:0px;height:100%;font-family:'Montserrat';overflow-x:hidden}.nav{background:#fff;z-index:9999;width:100%;height:70px;position:fixed;display:flex;justify-content:space-between;align-items:center}.nav .logo-wrapper{display:flex;height:70%;width:400px;max-width:50%;align-items:center;justify-content:center}.logo-wrapper .logo{height:100%}.nav .nav-list-wrapper{display:flex;justify-content:space-around;width:40%;align-items:center}.nav-list-wrapper .nav-list{color:#433677;margin:0px;padding:0px;list-style:none;display:flex;justify-content:space-around;width:200px;align-items:center}.nav-list .nav-options{display:inline-block;cursor:pointer}.features{box-sizing:border-box;position:absolute;background:url("background-a127362a7b50d97783ec19f129e4a08552e2a434ea5ce6aafea95a2542819b23.png") no-repeat;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;padding:20px 15px 20px;width:100%;top:70px;bottom:50px;display:flex;text-align:center;flex-flow:column wrap;align-items:center;justify-content:space-around}.features .features-heading{text-transform:uppercase;color:white;font-size:50px;width:100%;text-align:center;font-family:'LoveYaLikeASister'}.features .features-list{display:flex;width:80%;justify-content:space-around;align-items:center;flex-wrap:nowrap}.features-list .feature{width:200px;height:250px;color:white}.feature .feature-head{box-sizing:border-box;border-bottom:1px white solid;display:flex;justify-content:space-around;text-align:center;flex-flow:column wrap;width:100%;height:50%}.feature-head .feature-name{font-size:20px;text-transform:uppercase;font-weight:700}.feature-head .feature-icon{display:flex;justify-content:center;margin-bottom:10px;align-items:center}.feature-icon img{height:50px}.feature .feature-body{height:50%;display:flex;padding-top:10px;font-weight:700}.features-list .forward-icon{margin:20px 0px;width:20px;display:flex;justify-content:center;align-items:center;color:white;margin-top:55px;}.footer{background:#636363;height:50px;width:100%;position:absolute;bottom:0px;display:flex;justify-content:center;align-items:center}.footer .footer-options{height:100%;display:flex;width:400px;max-width:100%;justify-content:space-around;align-items:center}.footer-option{outline:none;text-decoration:none;color:white;text-transform:uppercase;cursor:pointer}.footer-bullet{color:white;font-size:20px}
+
+.feature{ width:33.3%; float:left; padding:15px 0 0 0; -webkit-transition: margin 0.5s ease-out; -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out;  margin-top: 20px; //margin-top:0px;}
+
+.feature .feature-head .feature-icon img{ 
+	display:inline-block; cursor:pointer;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+	}
+
+.feature:hover{
+	margin-top:2px; 
+	//margin-top:0px; 
+	cursor:default;}
+
+.feature .feature-head .feature-icon img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+@font-face {
+    font-family: LoveYaLikeASister;
+    src: url(fonts/LoveYaLikeASister.ttf);
+}
