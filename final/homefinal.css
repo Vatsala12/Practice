@@ -1,0 +1,26 @@
+
+.middle{
+      
+    position: relative;
+     text-align: right;
+      padding-top: 150px;
+  position: relative;
+      left: 80px;
+}
+
+.text-rotation {
+    transform: rotate(270deg);
+    transform-origin: right;
+    letter-spacing: 2px;
+    font-family: ZonaPro-Thin;
+  }
+    .images{
+      padding:10px;
+    }
+.image1{
+  padding: 15px;
+
+}
+.image2{
+  padding: 15px;
+}

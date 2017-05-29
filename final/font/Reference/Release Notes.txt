@@ -1,0 +1,20 @@
+Zona Pro v1.0
+December 07 2016
+
+files included:
+Zona Pro Hairline v1.0
+Zona Pro Hairline Italic v1.0
+Zona Pro Thin v1.0
+Zona Pro Thin Italic v1.0
+Zona Pro Light v1.0
+Zona Pro Light Italic v1.0
+Zona Pro Regular v1.0
+Zona Pro Regular Italic v1.0
+Zona Pro SemiBold v1.0
+Zona Pro SemiBold Italic v1.0
+Zona Pro Bold v1.0
+Zona Pro Bold Italic v1.0
+Zona Pro ExtraBold v1.0
+Zona Pro ExtraBold Italic v1.0
+Zona Pro Black v1.0
+Zona Pro Black Italic v1.0

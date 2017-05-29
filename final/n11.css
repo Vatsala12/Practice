@@ -1,0 +1,15 @@
+section{
+	background:#f1f1f1;
+}
+.voffset1{ margin-top: 20px; }
+.voffset2{ margin-top: 20px; }
+ .voffset3{margin-left: 1px; }
+ .voffset5{margin-top: 40px;}
+ .voffset4{ margin-top: 20px; }
+ .voffset6{margin-top: 40px;}
+
+
+.col-md-4 h3{
+	text-transform: uppercase;
+	color: #808080;
+}

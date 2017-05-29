@@ -1,0 +1,80 @@
+@font-face {
+    font-family: ZonaPro-Thin;
+    src: url(ZonaPro-Thin.otf);
+}
+ 
+ @font-face {
+    font-family: ZonaPro-Bold;
+    src: url(ZonaPro-Bold.otf);
+}   
+
+.mid{
+	padding:40px;
+	background:#f1f1f1;
+}
+.voffset1{
+	padding: 20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+}
+.col-lg-4 .row .f5 ul{
+	text-align: left;
+	margin:0;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.container-row .row1{
+	padding-top: 30px;
+}
+
+.col-lg-6 .f1 img{
+	margin-left: 300px;
+}
+
+.f2 hr{
+  	 	background-color: red;
+  		opacity: 1;	 
+    	border: none;
+    	height: 5px;
+    	width: 50px;
+    	margin-left:initial;
+    	margin-top: 10px;
+     }
+
+ h3{
+ 	font-family: ZonaPro-Bold;
+ }
+
+ ul{
+ 	font-family: ZonaPro-Thin;
+ 	font-size: 20px;
+ }
+
+  .col-lg-4 .f2 ul{
+ 	padding-left: 20px;
+ }
+
+ .container-row .row2{
+ 	margin-top: 70px;
+ 	margin-left: 180px;
+ }
+
+ img{
+ 	padding-bottom: 40px;
+ }
+
+ .col-lg-14 .f4 img{
+ 	padding-top: 40px;
+ }
+
+.col-md-4 ul li{
+	text-align: right;
+}
+
+.col-md-4 li:after {
+  content: ' \25A0 ';
+  font-size: 12px;
+  vertical-align: middle;
+}

@@ -1,0 +1,43 @@
+.us{
+	background-color:#f1f1f1;
+}
+
+.voffset1{ margin-top: 20px; 
+}
+.voffset2{ margin-top: 20px; }
+ .voffset3{margin-left: 1px; }
+ .voffset5{margin-top: 40px;}
+ .voffset4{ margin-top: 20px; }
+ .voffset6{margin-top: 40px;}
+.service h3{
+	font-family: ZonaPro-Bold;
+
+}
+.service ul{
+	font-family: ZonaPro-SemiBold;
+	color:black;
+	text-align: left;
+	margin-right:  15px;
+}
+
+.col-md-4 h3{
+	text-transform: uppercase;
+	color: #808080;
+}
+#last ul{
+	text-align: right;
+
+}
+@font-face {
+    font-family: ZonaPro-Regular;
+    src: url(ZonaPro-Regular.otf);
+}
+ 
+ @font-face {
+    font-family: ZonaPro-Bold;
+    src: url(ZonaPro-Bold.otf);
+} 
+@font-face {
+    font-family: ZonaPro-SemiBold;
+    src: url(ZonaPro-SemiBold.otf);
+} 

@@ -1,0 +1,103 @@
+.features{
+	height: 500px;
+     background-size:cover;
+	background-image: url("home2.jpg");
+	margin-right: 20px;
+
+}
+body {
+	margin-right: 100px;
+	background:#dcdcdc;
+	color: black;
+
+}
+ h4 {
+text-align:right;
+font-size:20px;
+color:black;
+margin-right: 20px;
+text-shadow: 0.5px 0.5px;
+	opacity: 0.7;
+	font-size: 15px;
+
+}
+h4 a{
+	color: black;
+	margin-right: 20px;
+}
+
+.navbar{
+	background-color: transparent;
+	border-color: transparent;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+}
+@font-face {
+    font-family: ZonaPro;
+    src: url(ZonaPro-Bold.otf);
+    src: url(ZonaPro-Thin.otf);
+}
+    
+
+ .nav .navbar-header .navbar-brand{
+    font-family: ZonaPro;
+   }
+
+.nav .navbar-nav .navbar-right {
+	font-family: ZonaPro-Thin;
+	}
+	.nav.navbar-nav.navbar-right li a {
+    color:black;
+    font-size: 15px;
+    opacity: 0.7;
+    text-shadow: 0.5px 0.5px;
+  
+    }
+   .navbar-header .navbar-brand {
+    	font-weight: bold;
+    	color: black;
+    	font-size: 30px;
+    	text-shadow: 0.5px 0.5px;
+    }
+    .features .features-container p p{
+	font-family: ZonaPro-Thin;
+	}
+
+  .features-container{
+  	color: white;
+  	background: rgba(0,0,0,0.6);
+  	width: 45%;
+  	height:inherit; 
+  	text-align: left;
+  	padding-top: 110px;
+  	padding-left: 70px;
+  	background-size: cover;
+  }
+  .features-container .heading{
+  	font-size: 25px;
+  	 }
+  	 .features-container .para{
+  	 	font-size:20px;
+  	 }
+  	 
+  	 hr{
+  	 	background-color: red;
+  		opacity: 1;	 
+    	border: none;
+    	height: 5px;
+    	width: 100px;
+    	margin-left:initial;
+     }
+  
+
+   button{
+   	height: 30px;
+   	background-color: white;
+
+   }
+
+   .btn-default{
+   	text-align: center;
+   }
