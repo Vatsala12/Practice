@@ -1,0 +1,36 @@
+.bottom{
+	background-color: #eaeaea;
+}
+
+.bottom h3{
+	text-transform: uppercase;
+	font-family: ZonaPro-Bold;
+	margin-left: 50px;
+	font-size: 30px;
+}
+.bottom hr{
+	 background-color:#cd0e37;
+      border: none;
+      height: 5px;
+      width: 50px;
+      margin-left:50px;
+}
+ .num1 {   position: absolute;
+    word-spacing: 280px;
+    margin-left: 110px;
+}
+.num2{   position: absolute;
+    word-spacing: 280px;
+    margin-left: 110px;
+}
+.worktext ul li{
+margin-left: 50px; 
+font-size: 16px;
+}
+li.second {
+    padding-left: 50px;}
+
+ @font-face {
+    font-family: ZonaPro-Bold;
+    src: url(ZonaPro-Bold.otf);
+} 

@@ -1,0 +1,58 @@
+.middle{
+padding-top:10%;
+	background:#f1f1f1;
+	padding-bottom: 5%;
+}
+.whyus hr{
+  	 	background-color:#cd0e37;
+  		opacity: 1;	 
+    	border: none;
+    	height: 5px;
+    	width: 50px;
+    	margin-left:5px;
+    	margin-top: 10px;
+     }
+
+    .whyus h3{
+ 	font-family: ZonaPro-Bold;
+ 	text-transform: uppercase;
+ 	font-size: 30px;
+ 	color: #666666
+ }
+ul li{
+	color: #808080;
+}
+ul li span{
+	color: black;
+}
+  ul{ padding-top:30px;
+ 	font-family: ZonaPro-Thin;
+ 	font-size: 18px;
+ }
+  img.service{
+ 	padding-top: 30px;
+ }
+ 
+.whyus li{
+	margin: 0 0 10px 0;
+}
+#pickup li{
+		margin: 0 0 10px 0;
+	}
+	#customer-service li{
+			margin: 0 0 10px 0;
+
+	}
+.customer{
+	margin-top: 30px;
+}
+#customer-service{
+	text-align: right;
+	float: left;
+}
+
+#customer-service li:after {
+  content: ' \25A0 ';
+  font-size: 12px;
+  vertical-align: middle;
+}

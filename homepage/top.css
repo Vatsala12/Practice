@@ -1,0 +1,111 @@
+.top {
+  background:#dcdcdc;
+  color: black;
+  padding-bottom: 10%;
+}
+.navigation{
+  margin-right: 100px;
+}
+ .navigation h4{
+  font-family: ZonaPro-Bold;
+  text-align:right;
+  font-size:20px;
+  color:black;
+  margin-right: 20px;
+  text-shadow: 0.5px 0.5px;
+  opacity: 0.7;
+  font-size: 15px;
+  
+
+}
+.navigation h4 a{
+  color: black;
+  margin-right: 20px;
+}
+
+.navbar{
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+  margin-left: 30px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+    font-family: ZonaPro-Thin;
+    src: url(ZonaPro-Thin.otf);
+}
+ 
+ @font-face {
+    font-family: ZonaPro-Bold;
+    src: url(ZonaPro-Bold.otf);
+}   
+
+  .nav.navbar-nav.navbar-right li a {
+    color:black;
+    font-size: 15px;
+    opacity: 0.7;
+    text-shadow: 0.5px 0.5px;
+    font-family: ZonaPro-Thin;
+  
+    }
+   .navbar-header .navbar-brand {
+      font-family: ZonaPro-Bold;
+      color: black;
+      font-size: 30px;
+      text-shadow: 0.5px 0.5px;
+    }
+.top-image{
+  height: 500px;
+     background-size:cover;
+  background-image: url("home2.jpg");
+ max-width:  90%;
+  background-repeat: no-repeat;
+}
+.top-aside{
+  float: right;
+  margin-top: 15%;
+    }
+.top-text-rotation {
+    transform: rotate(270deg);
+     
+    letter-spacing: 2px;
+    font-family: ZonaPro-Thin;
+  }
+.top-aside ul{
+  list-style-type: none;
+   font-family: ZonaPro-Thin;
+   text-align: right;
+}
+.top-image-text {
+    color: white;
+    background: rgba(0,0,0,0.6);
+    width: 45%;
+    height: inherit;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 50px;
+    background-size: cover;}
+    .top-text .heading{
+    font-size: 22px;
+    font-family: ZonaPro-Thin;
+    letter-spacing: 5px;
+        word-spacing: 10px;
+     }
+  .top-text .text-para{
+      font-size:18px;
+       font-family: ZonaPro-Thin;
+     }
+      
+    .top-text hr{
+      background-color:#cd0e37;
+      opacity: 1;  
+      border: none;
+      height: 5px;
+      width: 100px;
+      margin-left:initial;
+     }
+  
