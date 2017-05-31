@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="CSSform.css">
+
+    </head>
+    <body>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-8">
+    <div class="col-md-12">
+    <img src="form.jpg" height="500px">
+    </div>
+    </div>
+    <aside class="col-md-4">
+    	<div class="sidebar">
+    	<div class="form-box">
+    	<h3 class="box-heading">- Book a Service - </h3>
+    	<form role="form">
+    	<div class="row">
+               <div class="col-md-12 col-sm-12">
+                 <div class="form-group">
+					<label>Vehicle Model</label>
+                 <select class="form-control" id="vehicle">
+                 <option selected disabled>Select Model</option>
+        <option>Maruti Baleno</option>
+        <option>Maruti 800</option>
+        <option> Maruti Alto 800</option>
+        <option>Maruti Celerio</option>
+      </select>
+    </div>
+     </div>          <div class="col-md-12 col-sm-12">
+                 <div class="form-group">
+                      <label>Locality</label>
+                                <select class="form-control" id="locality" placeholder="Select Locality">
+        <option selected disabled>Select Locality</option>
+        <option>colony</option>
+        <option>street</option>
+        <option> block</option>
+        <option>blah blah</option>
+      </select>
+                   </div>
+                </div>
+               
+	<div class="col-md-12 col-sm-12">
+	<div class="form-group">
+    <label> Service </label>
+                        <select class="form-control" id="service">
+         <option>General Service</option>
+        <option>Breakdown Assistance</option>
+        <option> Vehicle Diagnostics</option>
+        <option>AC Gas Refilling</option>
+        <option>Complete AC Service</option>
+      </select>
+                   </div>
+                </div>
+	
+               <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label>Date of Service</label>
+                       <input type="text" class="form-control" id="servicedate"></div>
+                    </div>
+                
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                    <label>Pick up </label>
+                    <select class="form-control" id="pickup"> 
+               <option>Yes</option>
+               <option selected>No</option>
+               </select>
+               </div>
+               </div>
+
+               <div class="col-md-12 col-sm-12">
+                 <div class="form-group">
+                      <label>Pick up time</label>
+                       <select class="form-control" id="pickuptime"> 
+                       <option>09.00 AM - 11.00 AM</option>
+                       <option>11.00 AM - 01.00 PM</option>
+                       <option>03.00 PM - 05.00 PM</option>
+                       <option>05.00 PM - 07.00 PM</option>
+                       <option>07.00 PM - 09.00 PM</option>
+                       </select>
+                  </div>
+                </div>
+
+
+               <div class="col-md-12 col-sm-12">
+                 <div class="form-group">
+                      <label>Address</label>
+                   <input type="text" class="form-control" id="address" placeholder="Enter Pickup Address"></div>
+                </div>
+                <br>
+                <button type="submit" class="btn_full">Book Now</button>
+                </div>
+                 	</form>
+    	</div>
+    	</div>
+    </aside> 
+    </div>
+    </div>
+    </body>
+     </html>

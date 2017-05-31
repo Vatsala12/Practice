@@ -1,0 +1,41 @@
+ h3.box-heading{
+	
+    background-color: #565a5c;
+    padding: 10px 20px 10px 18px;
+    color: #fff;
+    border: 1px solid #fff;
+        text-align: center;
+            border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    }
+    .btn_full{
+    	    border: none;
+    width: 100%;
+    background: #ffa800;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+        color: #fff;
+    padding: 12px 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    outline: 0;
+    }
+    .form-box{
+    	    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 30px;
+    position: relative;
+    color: #666;
+    }
